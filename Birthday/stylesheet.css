@@ -1365,10 +1365,10 @@ audio {
 
 /* === Film strip refinements === */
 .photo-strip-wrapper {
-    height: 220px; /* bigger */
+    height: 120px; /* more compact */
     padding: 0; /* strip will manage its own vertical padding */
     position: fixed;
-    left: 0; right: 0; bottom: 70px;
+    left: 0; right: 0; bottom: 0;
     overflow: hidden;
     z-index: 1060;
     pointer-events: none;
@@ -1395,7 +1395,7 @@ audio {
     padding: 18px 0; /* gives space for sprockets */
 }
 .photo-strip img {
-    height: 180px;
+    height: 90px;
     margin-right: 25px;
     border: 3px solid #fff;
     border-radius: 4px;
