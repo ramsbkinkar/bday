@@ -30,7 +30,7 @@ $(document).ready(function(){
         let ambientLightDiv, mouseX = 0, mouseY = 0, glowRafId = null;
 
         // --- Photo strip setup ---
-        const photoPaths = Array.from({length:27}, (_,i)=>`photos/${i+1}.jpg`);
+        const photoPaths = Array.from({length:19}, (_,i)=>`photos/${i+1}.jpeg`);
 
         function buildPhotoStrip() {
             const $strip = $('.photo-strip');
